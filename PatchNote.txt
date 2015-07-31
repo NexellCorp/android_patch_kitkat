@@ -1,0 +1,12 @@
+2015.07.31
+1. [Uboot] modified the ECID check routine.
+linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/common/usbid.c
+
+2. [Uboot] modified the mmc ch1 initial routine.
+linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/dw_mmc.c
+
+3. [Kernel] Handle the interrupt to every CPU core(0~3)
+linux/kernel/kernel-3.4.39/arch/arm/common/gic.c
+linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/irq.c
+
+

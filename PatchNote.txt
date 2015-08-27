@@ -1,12 +1,24 @@
+2015.08.27
+1. [Kernel] S5P4418 Enable L2-cache 'Shared Bit' for DMA data sync.
+   linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/cpu.c
+
+2. [Kernel] Check overflow of rtc time value and set default time value.
+   linux/kernel/kernel-3.4.39/drivers/rtc/rtc-nxp.c
+
+3. [Kernel] Tty Hangup when mutiple access.
+   linux/kernel/kernel-3.4.39/drivers/tty/n_tty.c
+   linux/kernel/kernel-3.4.39/drivers/tty/tty_io.c
+
+
 2015.07.31
 1. [Uboot] modified the ECID check routine.
-linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/common/usbid.c
+   linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/common/usbid.c
 
 2. [Uboot] modified the mmc ch1 initial routine.
-linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/dw_mmc.c
+   linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/dw_mmc.c
 
 3. [Kernel] Handle the interrupt to every CPU core(0~3)
-linux/kernel/kernel-3.4.39/arch/arm/common/gic.c
-linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/irq.c
+   linux/kernel/kernel-3.4.39/arch/arm/common/gic.c
+   linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/irq.c
 
 

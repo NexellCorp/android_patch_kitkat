@@ -17,7 +17,10 @@
 6. [Kernel] GMAC driver
    linux/kernel/kernel-3.4.39/drivers/net/ethernet/nexell/nxpmac/*
 
-7. [Android] Build script for nand device
+7. [Kernel] prepare_gpio_suspend for s5p4418 suspend/resume
+   linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/pm.c
+
+8. [Android] Build script for nand device
    device/nexell/tools/update.sh
    device/nexell/tools/nand_list.sh
    device/nexell/tools/build.sh

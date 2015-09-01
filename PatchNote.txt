@@ -1,3 +1,28 @@
+2015.08.31
+1. [Uboot] git don't skip *.o.prebuilt
+   linux/bootloader/u-boot-2014.07/.gitignore
+
+2. [Uboot] FTL driver
+   linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/mio/*
+
+3. [Uboot] board config for gmac, nand
+   linux/bootloader/u-boot-2014.07/board/s5p4418/<BOARD_NAME>/*
+
+4. [Kernel] board config for gmac, nand
+   linux/kernel/kernel-3.4.39/arch/arm/plat-s5p4418/<BOARD_NAME>/*
+
+5. [Kernel] NAND FTL driver
+   linux/kernel/kernel-3.4.39/drivers/block/nand_ftl/mio
+
+6. [Kernel] GMAC driver
+   linux/kernel/kernel-3.4.39/drivers/net/ethernet/nexell/nxpmac/*
+
+7. [Android] Build script for nand device
+   device/nexell/tools/update.sh
+   device/nexell/tools/nand_list.sh
+   device/nexell/tools/build.sh
+
+
 2015.08.27
 1. [Kernel] S5P4418 Enable L2-cache 'Shared Bit' for DMA data sync.
    linux/kernel/kernel-3.4.39/arch/arm/mach-s5p4418/cpu.c

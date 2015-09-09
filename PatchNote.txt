@@ -1,3 +1,20 @@
+2015.09.09
+1. Ecc error code corresponding application for NAND MTD.
+   linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/nand.c
+   linux/bootloader/u-boot-2014.07/arch/arm/cpu/slsiap/devices/nand_ecc.c
+   linux/kernel/kernel-3.4.39/drivers/mtd/nand/nexell/nand.c
+   linux/kernel/kernel-3.4.39/drivers/mtd/nand/nexell/nand_ecc.c
+
+2. BUS QoS rollback for the board that does not use GMAC.
+   linux/bootloader/u-boot-2014.07/board/s5p4418/drone/board.c
+   linux/bootloader/u-boot-2014.07/board/s5p4418/drone2/board.c
+   linux/bootloader/u-boot-2014.07/board/s5p4418/dronel/board.c
+   linux/bootloader/u-boot-2014.07/board/s5p4418/lepus/board.c
+   linux/kernel/kernel-3.4.39/arch/arm/plat-s5p4418/drone/device.c
+   linux/kernel/kernel-3.4.39/arch/arm/plat-s5p4418/drone2/device.c
+   linux/kernel/kernel-3.4.39/arch/arm/plat-s5p4418/dronel/device.c
+   linux/kernel/kernel-3.4.39/arch/arm/plat-s5p4418/lepus/device.c
+
 2015.08.31
 1. [Uboot] git don't skip *.o.prebuilt
    linux/bootloader/u-boot-2014.07/.gitignore
